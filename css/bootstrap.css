@@ -1184,10 +1184,10 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: 'Roboto'sans-serif;
   font-weight: 500;
   line-height: 1.1;
-  color: inherit;
+  color: white;
 }
 h1 small,
 h2 small,
@@ -1265,7 +1265,8 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 36px;
+  margin: 92px 20px 50px;
+  font-size: 60px;
 }
 h2,
 .h2 {
@@ -1288,7 +1289,7 @@ h6,
   font-size: 12px;
 }
 p {
-  margin: 0 0 10px;
+  margin: 0 0 51px;
 }
 .lead {
   margin-bottom: 20px;
@@ -1536,10 +1537,10 @@ samp {
 }
 code {
   padding: 2px 4px;
-  font-size: 90%;
+  font-size: 150%;
   color: #c7254e;
   background-color: #f9f2f4;
-  border-radius: 4px;
+  border-radius: 2px;
 }
 kbd {
   padding: 2px 4px;
@@ -3060,9 +3061,9 @@ fieldset[disabled] a.btn {
   pointer-events: none;
 }
 .btn-default {
-  color: #333;
-  background-color: #fff;
-  border-color: #ccc;
+  color: #fff;
+/* background-color: #fff; */
+  border-color: #fff;
 }
 .btn-default:focus,
 .btn-default.focus {
@@ -3071,9 +3072,9 @@ fieldset[disabled] a.btn {
   border-color: #8c8c8c;
 }
 .btn-default:hover {
-  color: #333;
-  background-color: #e6e6e6;
-  border-color: #adadad;
+  color: #4fb5ff;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 .btn-default:active,
 .btn-default.active,
@@ -4287,6 +4288,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand > img {
   display: block;
+  max-width: 100%;
+  max-height: 100%;
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
