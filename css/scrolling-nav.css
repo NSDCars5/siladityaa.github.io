@@ -37,6 +37,7 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     background: linear-gradient(-90deg, #4776E6, #8E54E9); /* Standard syntax */
 }
+
 .about-section {
     height: 100%;
     padding-top: 150px;

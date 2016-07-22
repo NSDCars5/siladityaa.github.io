@@ -77,6 +77,36 @@ sup {
   line-height: 0;
   vertical-align: baseline;
 }
+.scroll-indicator {
+  position: absolute;
+  left: 50%;
+  font-size: 50px;
+  -webkit-animation: bounce 1s infinite;
+  animation: bounce 1s infinite;
+}
+@-webkit-keyframes bounce {
+  0% {
+    top: 15%;
+  }
+  50% {
+    top: 20%;
+  }
+  100% {
+    top: 15%;
+  }
+}
+@keyframes bounce {
+  0% {
+    top: 15%;
+  }
+  50% {
+    top: 20%;
+  }
+  100% {
+    top: 15%;
+  }
+}
+
 sup {
   top: -.5em;
 }
@@ -1297,6 +1327,7 @@ p {
   font-weight: 300;
   line-height: 1.4;
 }
+
 @media (min-width: 768px) {
   .lead {
     font-size: 21px;
