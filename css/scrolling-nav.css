@@ -37,40 +37,6 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     background: linear-gradient(-90deg, #4776E6, #8E54E9); /* Standard syntax */
 }
-.banner-thumbnail-wrapper:after {
-  content: "\e02d";
-  display: inline-block;
-  position: absolute;
-  z-index: 100;
-  color: #fff;
-  width: 100%;
-  text-align: center;
-  font-family: 'squarespace-ui-font';
-  transform: rotate(90deg);
-  cursor: pointer;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  font-size: 32px;
-  margin-top: 100px;
-}
-  @-webkit-keyframes arrows {
-   0% { top:0; }
-   10% { top:12%; }
-   20% { top:0; }
-   30% { top:12%; }
-   40% { top:-12%; }
-   50% { top:12%; }
-   60% { top:0; }
-   70% { top:12%; }
-   80% { top:-12%; }
-   90% { top:12%; }
-   100% { top:0; }
- }
-
- .banner-thumbnail-wrapper:after {
-   -webkit-animation: arrows 2.8s 0.4s;
-   -webkit-animation-delay: 3s;
- }
 .about-section {
     height: 100%;
     padding-top: 150px;
