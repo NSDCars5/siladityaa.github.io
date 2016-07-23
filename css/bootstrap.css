@@ -12,17 +12,7 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
-#parent-footer{
-  display: table;
-}
-#child-footer{
-  display: table-cell;
-  vertical-align: middle;
-}
-footer {
-  background-color: white;
-}
-}
+
 body {
   margin: 0;
 }
