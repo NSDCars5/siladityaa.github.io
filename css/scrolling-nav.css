@@ -57,5 +57,5 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: linear-gradient(-90deg, #1A2980, #26D0CE); /* Standard syntax */
+    background: linear-gradient(-90deg, #0085ad, #26D0CE); /* Standard syntax */
 }
