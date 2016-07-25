@@ -18,7 +18,7 @@ body {
 }
 @font-face {
   font-family: hero;
-  src: url(/fonts/HelveticaNeue.otf);
+  src: url(/fonts/HelveticaNeue-Light.otf);
   font-weight: normal;
 }
 @font-face {
