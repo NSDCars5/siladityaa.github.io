@@ -1167,11 +1167,14 @@ textarea {
 a {
   color: #eee;
   text-decoration: none;
+  border-bottom: 2px solid #eee;
 }
 a:hover,
 a:focus {
   color: #ffffff;
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+  transition: 0.4s ease;
 }
 a:focus {
   outline: thin dotted;
