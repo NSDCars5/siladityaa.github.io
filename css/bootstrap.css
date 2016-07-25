@@ -1167,13 +1167,13 @@ textarea {
 a {
   color: #eee;
   text-decoration: none;
-  border-bottom: 2px solid #eee;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
 a:hover,
 a:focus {
   color: #ffffff;
   text-decoration: none;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
   transition: 0.4s ease;
 }
 a:focus {
