@@ -59,11 +59,14 @@ template {
 a {
   background-color: transparent;
   text-decoration: none;
+  color: #eee;
 }
 a:active,
 a:hover {
   outline: 0;
   text-decoration: none;
+  color: #ffffff;
+  transition: 0.4s ease;
 }
 abbr[title] {
   border-bottom: 1px dotted;
