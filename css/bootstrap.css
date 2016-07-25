@@ -1352,6 +1352,11 @@ h4,
   color: #eeeeee;
   letter-spacing: 0.1rem;
 }
+.desc {
+  font-size: 1.5rem;
+  color: #eee;
+  font-family: herosub;
+}
 h5,
 .h5 {
   font-size: 1rem;
