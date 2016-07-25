@@ -18,12 +18,12 @@ body {
 }
 @font-face {
   font-family: hero;
-  src: url(/HelveticaNeue.otf);
+  src: url(/font/HelveticaNeue.otf);
   font-weight: normal;
 }
 @font-face {
   font-family: herosub;
-  src: url(/HelveticaNeue-Light.otf);
+  src: url(/fonts/ProximaNova-Light.otf);
   font-weight: lighter;
 }
 article,
