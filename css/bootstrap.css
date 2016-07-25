@@ -18,7 +18,7 @@ body {
 }
 @font-face {
   font-family: hero;
-  src: url(/font/HelveticaNeue.otf);
+  src: url(/fonts/HelveticaNeue.otf);
   font-weight: normal;
 }
 @font-face {
@@ -1238,16 +1238,22 @@ hr {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6,
 .h1,
 .h2,
 .h3,
-.h4,
 .h5,
 .h6 {
   font-family: hero;
+  font-weight: 500;
+  line-height: 1.1;
+  color: white;
+}
+h4,
+.h4
+{
+  font-family: herosub;
   font-weight: 500;
   line-height: 1.1;
   color: white;
