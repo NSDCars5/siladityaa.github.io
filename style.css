@@ -332,6 +332,14 @@ a.button:hover:before {
   bottom: 0;
   right: 0;
 }
+#videos .card:nth-child(5) {
+  bottom: 0;
+  right: 0;
+}
+#videos .card:nth-child(6) {
+  bottom: 0;
+  right: 0;
+}
 #videos .card .fab {
   position: absolute;
   bottom: 3rem;
