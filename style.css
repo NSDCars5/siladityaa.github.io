@@ -186,6 +186,21 @@ a.button:hover:before {
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   overflow: hidden;
 }
+#work .card.fl {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d5f35c35575329.56fc0f1bd0713.png);
+}
+#work .card.bbt {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/fefb3e45739023.583bd5ce99b4e.png);
+}
+#work .card.btm {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ade3f026935769.5635e3b23b87e.png);
+}
+#work .card.thp {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a34dd325903509.5634c8bd4a5e5.png);
+}
+#work .card.op {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/e4986722426697.563128f32317d.png);
+}
 #work .card.hw {
   background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d4ef3226890177.5635dceed08c0.png);
 }
