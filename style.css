@@ -189,6 +189,9 @@ a.button:hover:before {
 #work .card.fl {
   background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d5f35c35575329.56fc0f1bd0713.png);
 }
+#work .card.tg {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d783cb27035673.5635f2c5eedae.png);
+}
 #work .card.bbt {
   background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/fefb3e45739023.583bd5ce99b4e.png);
 }
