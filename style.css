@@ -308,13 +308,14 @@ a.button:hover:before {
   height: 100vh;
 }
 #videos .card {
-  width: 50%;
-  height: 50vh;
+  width: 33.33%;
+  height: 33.33vh;
   overflow: hidden;
   position: absolute;
   z-index: 2;
   -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  margin: auto;
 }
 #videos .card:nth-child(1) {
   top: 0;
@@ -322,21 +323,39 @@ a.button:hover:before {
 }
 #videos .card:nth-child(2) {
   top: 0;
+  left: 0;
   right: 0;
 }
 #videos .card:nth-child(3) {
+  top: 0;
+  right: 0;
+}
+#videos .card:nth-child(4) {
+  top: 0;
   bottom: 0;
   left: 0;
 }
-#videos .card:nth-child(4) {
-  bottom: 0;
-  right: 0;
-}
 #videos .card:nth-child(5) {
+  top: 0;
   bottom: 0;
+  left: 0;
   right: 0;
 }
 #videos .card:nth-child(6) {
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+#videos .card:nth-child(7) {
+  bottom: 0;
+  left: 0;
+}
+#videos .card:nth-child(8) {
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#videos .card:nth-child(8) {
   bottom: 0;
   right: 0;
 }
