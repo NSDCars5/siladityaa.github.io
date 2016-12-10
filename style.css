@@ -359,6 +359,18 @@ a.button:hover:before {
   bottom: 0;
   right: 0;
 }
+#videos .card:nth-child(7) {
+  bottom: 0;
+  right: 0;
+}
+#videos .card:nth-child(8) {
+  bottom: 0;
+  right: 0;
+}
+#videos .card:nth-child(9) {
+  bottom: 0;
+  right: 0;
+}
 #videos .card .fab {
   position: absolute;
   bottom: 3rem;
