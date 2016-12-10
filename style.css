@@ -201,11 +201,14 @@ a.button:hover:before {
 #work .card.op {
   background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/e4986722426697.563128f32317d.png);
 }
-#work .card.hw {
-  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d4ef3226890177.5635dceed08c0.png);
+#work .card.dm {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8c57e826501539.5635625e7dbef.png);
 }
-#work .card.tg {
-  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d783cb27035673.5635f2c5eedae.png);
+#work .card.hrd {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6e447c26685453.56358f0266135.png);
+}
+#work .card.wl {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/0d928f22739977.5631798a70b6b.png);
 }
 #work .card .text {
   opacity: 0;
