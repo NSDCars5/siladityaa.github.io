@@ -39,7 +39,7 @@ function onYouTubePlayerAPIReady() {
 		});
 		
 		$('body, html').animate({
-			scrollTop: videoEl.offset().top
+			scrollTop: $('#video .cards-container').offset().top
 		}, 50);
 	});
 }
