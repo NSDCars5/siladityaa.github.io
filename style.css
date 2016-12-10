@@ -412,6 +412,9 @@ a.button:hover:before {
 #videos .card .text a.button {
   min-width: 13.33rem;
 }
+#videos .card .text a.button:hover {
+  border-color: transparent;
+}
 #videos .card:hover {
   background-size: 110%;
 }
