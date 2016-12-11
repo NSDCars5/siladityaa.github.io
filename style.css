@@ -79,7 +79,7 @@ header nav.social-links a:hover i {
   content: "";
   z-index: 3;
 }
-#hero:after {
+#hero .bg {
   content: '';
   position: absolute;
   top: 0;
