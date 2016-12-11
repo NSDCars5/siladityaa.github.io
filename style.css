@@ -68,6 +68,7 @@ header nav.social-links a:hover i {
       -ms-flex-direction: column;
           flex-direction: column;
   color: white;
+  overflow: hidden;
 }
 #hero:before {
   position: absolute;
