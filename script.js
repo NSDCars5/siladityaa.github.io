@@ -79,8 +79,6 @@ $(window).on('scroll', function() {
 	});
 });
 $(document).ready(function() {
-$('#hero').mouseParallax({ moveFactor: 5 });
-$('body').height(3000);
-09
+	$('#hero .bg').mouseParallax({ moveFactor: 5 });
 });
 
