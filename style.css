@@ -68,12 +68,9 @@ header nav.social-links a:hover i {
       -ms-flex-direction: column;
           flex-direction: column;
   background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6119f735575329.56fc0f1bd1362.png);
-  position:fixed ;
-  top:0;
-  width:100%;
-  z-index:0;
-  height:100%;
-  background-size: calc(100% + 50px);
+  background-size: cover;
+  background-position: center -10vw;
+  color: white;
 }
 #hero:before {
   position: absolute;
